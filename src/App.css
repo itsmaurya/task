@@ -1,0 +1,131 @@
+body {
+  background-color: rgb(233, 233, 232);
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.details{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+  margin-bottom: 45px;
+  margin-left: 30px;
+}
+.box {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  width: 996px;
+  height: 291px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+}
+.box-image{
+  width: 20%;
+  margin-left: 90px;
+  
+}
+.box-image img{
+  height: 160px;
+  width: 160px;
+  border-radius: 120px;
+}
+.data {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.data-box {
+  display: flex;
+  flex-direction: column;
+  margin: 24px;
+  width: 282px;
+
+  height: 110px;
+  align-items: flex-start;
+  padding: 12px 16px;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.2);
+}
+.data-box:hover,
+.gender:hover,
+.email:hover {
+  background-color: #a259ff;
+  color: #fff;
+}
+.data-box:hover .gender,
+.data-box:hover .email {
+  color: #fff;
+}
+.gender {
+  color: #6e6e6e;
+  display: flex;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 2px;
+  margin-bottom: 0px;
+  text-transform: capitalize; 
+}
+
+.name {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  margin-bottom: 7px;
+}
+.email {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  margin-bottom: 3px;
+  color: #e16259;
+}
+.box-name {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 74px;
+  letter-spacing: -1.85px;
+  text-decoration-line: underline;
+  color: #e16259;
+  margin-bottom: 4px;
+}
+.box-address{
+  margin-top:2px;
+  margin-bottom: 4px;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+color: #000;
+}
+.box-timezone{
+  margin-top: 2px;
+  margin-bottom: 4px;
+  font-style: normal;
+font-weight: 500;
+font-size: 20px;
+color: #000;
+
+}
+.box-gender{
+  margin-top:2px ;
+  font-style: normal;
+font-weight: 400;
+font-size: 20px;
+color: #5e5e5e;
+text-transform: capitalize;
+}
